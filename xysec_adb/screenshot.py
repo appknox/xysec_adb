@@ -6,11 +6,11 @@ import os
 import signal
 import tempfile
 
-from pylib import cmd_helper
+from xysec_adb.pylib import cmd_helper
 
 # TODO(jbudorick) Remove once telemetry gets switched over.
-import pylib.android_commands
-import pylib.device.device_utils
+import xysec_adb.pylib.android_commands
+import xysec_adb.pylib.device.device_utils
 
 
 class VideoRecorder(object):
