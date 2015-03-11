@@ -15,12 +15,12 @@ import subprocess
 import time
 
 # TODO(craigdh): Move these pylib dependencies to pylib/utils/.
-from pylib import android_commands
-from pylib import cmd_helper
-from pylib import constants
-from pylib import pexpect
-from pylib.device import device_utils
-from pylib.utils import time_profile
+from xysec_adb.pylib import android_commands
+from xysec_adb.pylib import cmd_helper
+from xysec_adb.pylib import constants
+from xysec_adb.pylib import pexpect
+from xysec_adb.pylib.device import device_utils
+from xysec_adb.pylib.utils import time_profile
 
 import errors
 import run_command
