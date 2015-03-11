@@ -4,7 +4,7 @@
 
 import logging
 
-from pylib import content_settings
+from xysec_adb.pylib import content_settings
 
 _LOCK_SCREEN_SETTINGS_PATH = '/data/system/locksettings.db'
 PASSWORD_QUALITY_UNSPECIFIED = '0'
