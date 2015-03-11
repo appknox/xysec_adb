@@ -32,8 +32,6 @@ try:
 except ImportError:
   pexpect = None
 
-sys.path.append(os.path.join(
-    constants.DIR_SOURCE_ROOT, 'third_party', 'android_testrunner'))
 import adb_interface
 import am_instrument_parser
 import errors
