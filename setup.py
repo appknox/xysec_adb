@@ -25,7 +25,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='xysec_adb',
-    version='0.1',
+    version='0.2',
     url='https://github.com/xysec/xysec_adb',
     author='dhilipsiva',
     author_email='dhilipsiva@gmail.com',
