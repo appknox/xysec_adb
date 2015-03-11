@@ -36,8 +36,8 @@ import adb_interface
 import am_instrument_parser
 import errors
 
-from pylib.device import device_blacklist
-from pylib.device import device_errors
+from xysec_adb.pylib.device import device_blacklist
+from xysec_adb.pylib.device import device_errors
 
 # Pattern to search for the next whole line of pexpect output and capture it
 # into a match group. We can't use ^ and $ for line start end with pexpect,
