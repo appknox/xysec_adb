@@ -16,9 +16,9 @@ import os
 import re
 import sys
 
-from pylib import cmd_helper
-from pylib import constants
-from pylib.utils import emulator
+from xysec_adb.pylib import cmd_helper
+from xysec_adb.pylib import constants
+from xysec_adb.pylib.utils import emulator
 
 
 def main(argv):
